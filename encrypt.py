@@ -1,6 +1,7 @@
 import os
 from time import sleep
 
+
 class Encryption:
 
     def __init__(self, file_name="", key=0, length=0):
@@ -13,10 +14,24 @@ class Encryption:
             os.system("cls")
             with open(self.file_name, 'r', encoding="utf-8") as file:
                 for line in range(self.length):
-                    print(file.read())
+                    print(file.readline())
                     sleep(.15)
+                input("press enter to continue")
         except FileExistsError:
             print("Not a valid file")
+
+    def write_file(self):
+        try:
+            os.system("cls")
+            with open(self.file_name, "w", encoding="utf-8") as file:
+                text = input("Text:\n")
+                file.write(text)
+            print("Data written to file")
+        except FileNotFoundError:
+            print("Invalid target file")
+
+    def dir(self):
+        os.system("dir")
 
     def encrypt(self):
         if os.path.isfile(self.file_name) is True:

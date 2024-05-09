@@ -1,15 +1,15 @@
-Thank you for using the file encryptor
-
-Instructions:
-
-    - Select your choice of encryption or decryption:
-        - Enter name of file including extension
-        - IT IS CASE SENSITIVE
-        - Enter a key (remember this, because you won't be able to decrypt the file without it)
-        - Enter number of lines in file
-
-    - If you select read file:
-        - Enter the file name
-        - It's as easy as that
-
-    - select exit to end to the program
+Thank you for using the file encryptor 
+ 
+Instructions: 
+ 
+- Select your choice of encryption or decryption: 
+- Enter name of file including extension 
+- IT IS CASE SENSITIVE 
+- Enter a key (remember this, because you won't be able to decrypt the file without it) 
+- Enter number of lines in file 
+ 
+- If you select read file: 
+- Enter the file name 
+- It's as easy as that 
+ 
+- select exit to end to the program 
